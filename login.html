@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caramel&family=Rubik+Gemstones&family=Sacramento&family=Sevillana&display=swap"
+        rel="stylesheet">
+
+    <title>Login form</title>
+</head>
+
+<body>
+    <script>
+        document.getElementsByTagName(button).addEventListener("mouseover", function () {
+            document.getElementsByTagName("button").ClassList.add("btn-success");
+        });
+    </script>
+    <div class="heading">
+        <h1>Login Form</h1>
+    </div>
+    <div class="top">
+        <div class="left">
+            <img src="https://images.unsplash.com/photo-1672761303639-3fd08db84dc0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                alt="" width="100%" height="100%">
+        </div>
+        <div class="right">
+            <div class="formbox">
+                <form method="post">
+                    <p for="">Employee Id</p>
+                    <input class="inp" name="Id" type="number" placeholder="Enter your id here">
+                    <p for="">Username</p>
+                    <input class="inp" name="Name" type="text" placeholder="Enter your name here">
+                    <p>Email id</p>
+                    <input type="email" id="email" name="Email" placeholder="Enter your email" required>
+                    <p for="">Password</p>
+                    <input class="inp" id="password" name="Password" type="password" placeholder="Enter your Password"
+                        required>
+                    <div class="but-div">
+                        <button class="btn btn-outline-primary">Submit</button>
+                    </div>
+                    <a class="anchor" href="">Forgot Password?</a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="foot " style="margin: 10px; color: aliceblue; font-size: 10px;">
+        <h1>By Prateek. J</h1>
+    </footer>
+    <style>
+        body {
+            background-color: rgb(19, 17, 17);
+        }
+
+        .heading h1 {
+            text-align: center;
+            font-family: "Caramel";
+            font-size: 150px;
+            height: 100px;
+            color: beige;
+
+        }
+
+        .top {
+
+            width: 50%;
+            height: 600px;
+            margin: 100px auto;
+            background-color: wheat;
+            text-align: center;
+            display: flex;
+            overflow: hidden;
+            border: 2px solid wheat;
+
+
+        }
+
+        .left {
+            width: 50%;
+            height: 600px;
+            float: left;
+            background: url("images/pexels-kübra-doğu-9013259.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-position: center center;
+
+        }
+
+        .right {
+            width: 50%;
+            height: 600px;
+            background-color:#000;
+            text-align: center;
+
+        }
+
+        .formbox {
+            text-align: center;
+            width: 100%;
+            height: 600px;
+        }
+
+        p {
+            font-size: 30px;
+            font-weight: bold;
+            color: white;
+            padding-top: 15px;
+        }
+
+        input {
+            width: 270px;
+            height: 40px;
+            padding: 10px;
+            border: none;
+            border: 3px solid darkblue;
+            border-radius: 8px;
+        }
+
+        input:hover {
+            box-shadow: 0px 1px 1px 2px;
+        }
+
+
+
+        .but-div {
+
+            margin-top: 20px;
+            margin-bottom: 15px;
+            font-family: "Montserrat";
+        }
+
+        .anchor {
+            font-weight: bold;
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+
+        }
+
+        a:hover {
+            color:green;
+            text-decoration: none;
+            
+
+        }
+    </style>
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+body
+{
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+#title
+{
+    background-color: #ff4c68;
+    color: #fff;
+    
+}
+h1
+{
+    font-family:"Montserrat-Black";
+    font-size: 3 rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar-brand
+{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff;
+    line-height: 2.5rem;
+    
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-item
+{
+    padding: 0 18px;
+    color: #fff;
+}
+.download-button
+{
+    margin: 5% 3% 6% 0;
+}
+.iphone-img{
+    width: 50%;
+    transform: rotate(30deg);
+}
+#features
+{
+    padding: 7% 15%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h3
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5;
+}
+p
+{
+    color: grey;
+}
+.features-design
+{
+    margin-bottom: 1rem ;
+    color: #ff4c68;
+}
+.features-design:hover
+{
+    color: crimson;
+}
+#testimonials
+{
+    text-align: center;
+    background-color: #ff4c68;
+    
+    color: #fff;
+
+}
+h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonials-img
+{
+    padding-top: 3%;
+    position: absolute;
+    z-index: 1;
+    border-radius: 100%;
+    width: 20%;
+}
+#press
+{
+    text-align: center;
+    padding-bottom: 7%;
+    background-color: #ff4c68;
+}
+.carousel-item
+{
+    padding: 7% 8%;
+
+
+}
+#pricing
+{
+    padding: 100px;
+    text-align: center;
+}
+.price-col
+{
+    padding: 2% 3%;
+    border: 2px solid;
+
+}
+
